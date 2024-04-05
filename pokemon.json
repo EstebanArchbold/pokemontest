@@ -1,0 +1,102 @@
+[
+      {
+        "name": "Bulbasaur",
+        "HP": 45,
+        "atk": 49
+      },
+      {
+        "name": "Charmander",
+        "HP": 39,
+        "atk": 52
+      },
+      {
+        "name": "Squirtle",
+        "HP": 44,
+        "atk": 48
+      },
+      {
+        "name": "Chikorita",
+        "HP": 45,
+        "atk": 49
+      },
+      {
+        "name": "Cyndaquil",
+        "HP": 39,
+        "atk": 52
+      },
+      {
+        "name": "Totodile",
+        "HP": 50,
+        "atk": 65
+      },
+      {
+        "name": "Treecko",
+        "HP": 40,
+        "atk": 45
+      },
+      {
+        "name": "Torchic",
+        "HP": 45,
+        "atk": 60
+      },
+      {
+        "name": "Mudkip",
+        "HP": 50,
+        "atk": 70
+      },
+      {
+        "name": "Turtwig",
+        "HP": 55,
+        "atk": 68
+      },
+      {
+        "name": "Chimchar",
+        "HP": 44,
+        "atk": 58
+      },
+      {
+        "name": "Piplup",
+        "HP": 53,
+        "atk": 51
+      },
+      {
+        "name": "Snivy",
+        "HP": 45,
+        "atk": 45
+      },
+      {
+        "name": "Tepig",
+        "HP": 65,
+        "atk": 63
+      },
+      {
+        "name": "Oshawott",
+        "HP": 55,
+        "atk": 55
+      },
+      {
+        "name": "Chespin",
+        "HP": 56,
+        "atk": 61
+      },
+      {
+        "name": "Fennekin",
+        "HP": 40,
+        "atk": 45
+      },
+      {
+        "name": "Froakie",
+        "HP": 41,
+        "atk": 56
+      },
+      {
+        "name": "Rowlet",
+        "HP": 68,
+        "atk": 55
+      },
+      {
+        "name": "Litten",
+        "HP": 45,
+        "atk": 65
+      }
+]

@@ -1,0 +1,105 @@
+{
+  "moves": [
+    {
+      "name": "Ember",
+      "type": "Fire",
+      "power": 40
+    },
+    {
+      "name": "Water Gun",
+      "type": "Water",
+      "power": 40
+    },
+    {
+      "name": "Vine Whip",
+      "type": "Grass",
+      "power": 45
+    },
+    {
+      "name": "Bubble",
+      "type": "Water",
+      "power": 40
+    },
+    {
+      "name": "Razor Leaf",
+      "type": "Grass",
+      "power": 55
+    },
+    {
+      "name": "Surf",
+      "type": "Water",
+      "power": 90
+    },
+    {
+      "name": "Leaf Storm",
+      "type": "Grass",
+      "power": 130
+    },
+    {
+      "name": "Scald",
+      "type": "Water",
+      "power": 80
+    },
+    {
+      "name": "Fire Blast",
+      "type": "Fire",
+      "power": 110
+    },
+    {
+      "name": "Flamethrower",
+      "type": "Fire",
+      "power": 90
+    },
+    {
+      "name": "Hydro Pump",
+      "type": "Water",
+      "power": 110
+    },
+    {
+      "name": "Solar Beam",
+      "type": "Grass",
+      "power": 120
+    },
+    {
+      "name": "Scorching Sands",
+      "type": "Fire",
+      "power": 70
+    },
+    {
+      "name": "Aqua Tail",
+      "type": "Water",
+      "power": 90
+    },
+    {
+      "name": "Energy Ball",
+      "type": "Grass",
+      "power": 90
+    },
+    {
+      "name": "Flare Blitz",
+      "type": "Fire",
+      "power": 120
+    },
+    {
+      "name": "Muddy Water",
+      "type": "Water",
+      "power": 90
+    },
+    {
+      "name": "Seed Bomb",
+      "type": "Grass",
+      "power": 80
+    },
+    {
+      "name": "Scorching Sands",
+      "type": "Fire",
+      "power": 70
+    },
+    {
+      "name": "Ice Beam",
+      "type": "Water",
+      "power": 90
+    }
+  ]
+}
+
