@@ -1,5 +1,4 @@
-{
-  "moves": [
+[
     {
       "name": "Ember",
       "type": "Fire",
@@ -100,6 +99,6 @@
       "type": "Water",
       "power": 90
     }
-  ]
-}
+]
+
 
