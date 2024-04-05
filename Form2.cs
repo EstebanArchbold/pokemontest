@@ -14,13 +14,17 @@ namespace pokemontest
 {
     public partial class Form2 : Form
     {
-        private List<Pokemon> pokemons;
+        private List<Pokemon> pokemons = new List<Pokemon>();
+        private List<Move> moves = new List<Move>();
 
         public Form2()
         {
             InitializeComponent();
-            PopulateListBox();
             LoadPokemonData();
+            //PopulateListView();
+            PopulateListBox();
+            //LoadMoveData();
+            //PopulateListBox2();
         }
 
         private void LoadPokemonData()
@@ -37,15 +41,15 @@ namespace pokemontest
             // Limpiar el ListBox antes de agregar elementos
             listBox1.Items.Clear();
 
-            // Agregar cada Pokemon al ListBox
-            //foreach (Pokemon pokemon in pokemons)
-            //{
-            //    // Formatear el texto para cada Pokemon
-            //    string pokemonInfo = $"{pokemon.Name} - HP: {pokemon.HP}, Attack: {pokemon.Attack}";
+            //Agregar cada Pokemon al ListBox
+            foreach (Pokemon pokemon in pokemons)
+            {
+                // Formatear el texto para cada Pokemon
+                string pokemonInfo = $"{pokemon.Name} - HP: {pokemon.HP}, Attack: {pokemon.Attack}";
 
-            //    // Agregar el Pokemon al ListBox
-            //    listBox1.Items.Add(pokemonInfo);
-            //}
+                // Agregar el Pokemon al ListBox
+                listBox1.Items.Add(pokemonInfo);
+            }
         }
         private void button1_Click(object sender, EventArgs e)
         {
