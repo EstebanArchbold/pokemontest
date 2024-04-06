@@ -18,8 +18,6 @@ namespace pokemontest
         private List<Move> moves = new List<Move>();
 
 
-
-
         public Form1()
         {
             InitializeComponent();

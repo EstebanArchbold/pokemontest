@@ -12,15 +12,14 @@ namespace pokemontest
         public int CurrentHP { get; set; }
         public int HP { get; set; }
         public int Attack { get; set; }
-        public List<Move> Moves { get; set; }
+        public List<string> Moves { get; set; }
 
-        public Pokemon(string name, int currentHP, int HP, int attack, List<Move> moves)
+        public Pokemon(string name, int currentHP, int HP, int attack)
             : base(name)
         {
             CurrentHP = currentHP;
             this.HP = HP;
             Attack = attack;
-            Moves = moves;
         }
 
         public void TakeDamage(int damage)
@@ -42,10 +41,10 @@ namespace pokemontest
             return CurrentHP <= 0;
         }
 
-        public void LearnMove(Move move)
+        public void LearnMove(string move)
         {
             Moves.Add(move);
-            Console.WriteLine($"{Name} learned {move.Name}!");
+            Console.WriteLine($"{Name} learned {move}!");
         }
     }
 }

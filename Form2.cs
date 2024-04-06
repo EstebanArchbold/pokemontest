@@ -15,7 +15,6 @@ namespace pokemontest
     public partial class Form2 : Form
     {
         private List<Pokemon> pokemons = new List<Pokemon>();
-        private List<Move> moves = new List<Move>();
 
         public Form2()
         {
